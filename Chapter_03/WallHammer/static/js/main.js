@@ -23,6 +23,8 @@ const config = {
         },
     },
     scene: [Bootloader, Splash, Transition, Game, Outro],
+    title: "Wall Hammer",
+    version: "1.0",
 };
 
 const game = new Phaser.Game(config);
